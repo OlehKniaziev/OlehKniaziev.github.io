@@ -3,58 +3,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oleh Kniaziev</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <main class="main-container">
-      <section class="description-container">
-        <header class="container-title">
-          <span class="title-text">Who</span>
-          <span class="title-text">am</span>
-          <span class="title-text">I</span>
-        </header>
-        <p class="container-text">
-          Hey! I am Oleh. I currently work at <a class="content-link" target="_blank" href="https://www.nokia.com/">Nokia</a>
-          and study Informatics at <a class="content-link" target="_blank" href="https://en.wsei.edu.pl/">WSEI</a>.
-          I love computers and all sort of things related to them.
-          I also enjoy playing chess in my free time and doing sports.
-        </p>
+    <div class="main-content">
+      <h1>Oleh Kniaziev</h1>
+      <section>
+        <h2><span class="underline">About</span></h2>
+        Hey! My name is Oleh, and I am a software engineer. I love OS, programming languages, videogames, and computer graphics stuff.
       </section>
-
-      <nav id="socials">
-        <a target="_blank" href="https://github.com/atmatm9182">
-          <img class="social-icon" src="./assets/github-mark-white.svg" alt="Github logo">
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/oleh-kniaziev-576578278/">
-          <img class="social-icon" src="./assets/linkedin-white.webp" alt="LinkedIn logo">
-        </a>
-      </nav>
-
-      <section class="projects-container">
-        <header class="container-title">
-          <span class="title-text">My</span>
-          <span class="title-text">projects</span>
-        </header>
-        <p class="container-text">Check out some things i've built :)</p>
-        <ol class="container-list container-text">
+      <section>
+        <h2><span class="underline">Things i've built</span></h2>
+        <ul>
           <li>
-            <a class="content-link" href="https://github.com/OlehKniaziev/kokos">A lisp interpreter</a>
+            <article>
+              <header>
+                <h3>Kokos</h3>
+              </header>
+              <p>An interpeted lisp dialect.</p>
+              <p>Source code can be found <a target="_blank" href="https://github.com/OlehKniaziev/kokos">here</a>.</p>
+            </article>
           </li>
           <li>
-            <a class="content-link" href="https://github.com/OlehKniaziev/httppo">A multithreaded HTTP server</a>
+            <article>
+              <header>
+                <h3>HTTPPO</h3>
+              </header>
+              <p>A multithreaded HTTP web server</p>
+              <p>
+                <b>NOTE:</b>
+                this project is unfinished, and a new iteration of a similar idea
+                can be found <a target="_blank"  href="https://github.com/OlehKniaziev/web-apps-lab/tree/master/backend">here</a>.
+              </p>
+              <p>Source code can be found <a target="_blank" href="https://github.com/OlehKniaziev/httppo">here</a>.</p>
+            </article>
           </li>
           <li>
-            <a class="content-link" href="https://github.com/OlehKniaziev/pomegranate">A generic project scaffolder</a>
+            <article>
+              <header>
+                <h3>OK</h3>
+              </header>
+              <p>A header-only self-contained C++20 standard library.</p>
+              <p>Source code can be found <a target="_blank" href="https://github.com/OlehKniaziev/ok">here</a>.</p>
+            </article>
           </li>
           <li>
-            <a class="content-link" href="https://github.com/OlehKniaziev/olehkniaziev.github.io">This very own website!</a>
+            <article>
+              <header>
+                <h3>Astron</h3>
+              </header>
+              <p>A collection of single-header libraries for building modern applications in C</p>
+              <p>Source code can be found <a target="_blank" href="https://github.com/OlehKniaziev/astron">here</a>.</p>
+            </article>
           </li>
-        </ol>
+        </ul>
       </section>
-    </main>
-
+      <section>
+        <h2>Socials</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/OlehKniaziev">github.com/OlehKniaziev</a> - my github.
+          </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/oleh-kniaziev-576578278">Oleh Kniaziev</a> - my LinkedIn.
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
